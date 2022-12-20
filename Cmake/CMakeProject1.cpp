@@ -2,12 +2,14 @@
 //
 
 #include "CMakeProject1.h"
-#include "iostream"
+#include <iostream>
+#include "mylib.h"
 using namespace std;
 
 int main()
 {
 	string str = "Hello World from Cmake";
 	cout <<str<< endl;
+	Myfunction();
 	return 0;
 }
